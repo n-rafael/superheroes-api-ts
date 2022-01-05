@@ -1,4 +1,4 @@
-# superheroes-js
+# superheroes-ts-v3
 
 ## Project setup
 ```

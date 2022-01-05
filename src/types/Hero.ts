@@ -1,5 +1,5 @@
 export default interface Hero {
-  id: null;
+  id: number;
   name: string;
   powerstats: string;
   biography: {

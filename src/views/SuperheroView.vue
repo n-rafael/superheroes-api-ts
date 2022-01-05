@@ -6,16 +6,18 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+// import { Component, Vue } from 'vue-property-decorator';
 // import axios from 'axios';
 import HelloWorld from '@/components/HelloWorld.vue';
-import SearchField from '@/components/SearchField.vue'; // @ is an alias to /src
+import SearchField from '@/components/SearchField.vue';
+import {defineComponent} from "vue"; // @ is an alias to /src
 
-@Component({
+export default defineComponent({
+  name: 'SuperheroView',
   components: {
     HelloWorld,
     SearchField,
   },
 })
-export default class SuperheroView extends Vue {}
+// export default class SuperheroView extends Vue {}
 </script>
