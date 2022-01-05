@@ -2,8 +2,12 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
+
+    //    "strict": true,
+    "noImplicitAny": false,
+
     "jsx": "preserve",
+
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
